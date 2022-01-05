@@ -1,0 +1,18 @@
+{
+	"require": {
+		"name": "miniframework",
+		"php": ">= 7.0"
+	},
+	"authors": [
+		{
+			"name": "cyberkyojin",
+			"email": "cyberkyojin@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"App\\": "App/",
+			"MF\\": "vendor/MF/"
+		}
+	}
+}
